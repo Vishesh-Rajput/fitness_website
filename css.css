@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #241212;
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #3e1b1b;
+  border: color(srgb rgb(168, 163, 163) green blue);
+  border: 100%;
+}
+
+.myText {
+  font-size: medium;
+  color: azure;
+}
+
+header {
+  background-color: #241212;
+  /* Energetic red-orange color */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  /* Heading shadow */
+  transition: text-shadow 0.3s ease-in-out;
+  /* Transition on hover */
+  font-size: 100px;
+  text-align: center;
+}
+
+header h1:hover {
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+  /* Hover effect on heading */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+nav ul li {
+  margin: 0 15px;
+  font-size: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffff66;
+  /* Yellow hover effect */
+}
